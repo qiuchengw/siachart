@@ -2,8 +2,6 @@
 
 #ifdef SIA_OS_LINUX
 #include <X11/Xlib.h>
-#elif defined(SIA_OS_WIN)
-#include <windows.h>
 #endif
 
 namespace sia {

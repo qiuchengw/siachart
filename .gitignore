@@ -36,3 +36,4 @@
 *.ilk
 *.pdb
 *.exp
+/src/demo/build-myform-*

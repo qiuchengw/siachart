@@ -6,13 +6,14 @@
 
 #ifdef SIA_OS_LINUX
 struct _XImage;
+#elif defined(SIA_OS_WIN)
+#include <Windows.h>
 #endif
 
 namespace sia {
 namespace port {
 
 #ifdef SIA_OS_WIN
-#include <windows.h>
 
 namespace QtWin {
 // decode bitmap into QPixmap
