@@ -1,0 +1,60 @@
+set_property(GLOBAL PROPERTY USE_FOLDERS On)
+cmake_minimum_required(VERSION 2.8)
+
+project(sia)
+
+# 编译的时候带入调试信息
+add_compile_options(-g)
+
+# SET(CMAKE_VERBOSE_MAKEFILE on)
+
+#
+#最低c++11 建议使用c++14
+#
+
+include(CheckCXXCompilerFlag)  
+CHECK_CXX_COMPILER_FLAG("-std=c++14" COMPILER_SUPPORTS_CXX14)
+CHECK_CXX_COMPILER_FLAG("-std=c++11" COMPILER_SUPPORTS_CXX11)
+
+if(COMPILER_SUPPORTS_CXX14)
+    SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
+elseif(COMPILER_SUPPORTS_CXX11)
+    SET(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+else()
+    message(STATUS "The compiler ${CMAKE_CXX_COMPILER} has no C++11 support. Please use a different C++ compiler.")
+endif()
+
+SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
+SET(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
+SET(SOURCE_UP_PATH ${PROJECT_SOURCE_DIR}/../)
+SET(SKIA_PATH ${SOURCE_UP_PATH}/skiall/)
+SET(TOP_SOURCE_PATH ${PROJECT_SOURCE_DIR})
+SET(CMAKE_POSITION_INDEPENDENT_CODE ON)
+
+include(${PROJECT_SOURCE_DIR}/common.cmake)
+
+#以下项目文件
+# 基础第三方库
+ADD_SUBDIRECTORY("${PROJECT_SOURCE_DIR}/deps/zlib")
+ADD_SUBDIRECTORY("${PROJECT_SOURCE_DIR}/deps/lua")
+ADD_SUBDIRECTORY("${PROJECT_SOURCE_DIR}/deps/talib")
+
+# graphy
+ADD_SUBDIRECTORY("${PROJECT_SOURCE_DIR}/src/graphy")
+ADD_SUBDIRECTORY("${PROJECT_SOURCE_DIR}/src/mode/rastery")
+ADD_SUBDIRECTORY("${PROJECT_SOURCE_DIR}/src/mode/gly")
+ADD_SUBDIRECTORY("${PROJECT_SOURCE_DIR}/src/resy")
+
+#chart
+ADD_SUBDIRECTORY("${PROJECT_SOURCE_DIR}/src/charty/base")
+ADD_SUBDIRECTORY("${PROJECT_SOURCE_DIR}/src/charty/charty")
+ADD_SUBDIRECTORY("${PROJECT_SOURCE_DIR}/src/charty/stockchart")
+ADD_SUBDIRECTORY("${PROJECT_SOURCE_DIR}/src/charty/formula")
+
+# demo
+ADD_SUBDIRECTORY("${PROJECT_SOURCE_DIR}/src/demo/demo_lua")
+ADD_SUBDIRECTORY("${PROJECT_SOURCE_DIR}/src/demo/demo_resy")
+ADD_SUBDIRECTORY("${PROJECT_SOURCE_DIR}/src/demo/demo_chart")
+ADD_SUBDIRECTORY("${PROJECT_SOURCE_DIR}/src/demo/demo_graphy_gl")
+ADD_SUBDIRECTORY("${PROJECT_SOURCE_DIR}/src/demo/demo_graphy_raster")
+ADD_SUBDIRECTORY("${PROJECT_SOURCE_DIR}/src/skia_sample")

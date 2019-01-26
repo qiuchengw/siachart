@@ -27,6 +27,12 @@
 *.lib
 
 # Executables
+/build
+/lib
 *.exe
 *.out
 *.app
+*.user
+*.ilk
+*.pdb
+*.exp

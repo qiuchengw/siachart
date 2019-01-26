@@ -1,0 +1,1 @@
+for /R ./ %%f in (*.cpp *.h) do "c:/mytools/AStyle.exe" --style=java --indent=spaces=4 "%%f"

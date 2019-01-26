@@ -1,0 +1,48 @@
+{
+    "global":{
+        "font":{
+            "h1":"italic-bold 15pt 宋体",
+            "p1":"normal 16px 宋体"
+        },
+        "image":{
+            "img":"d:/jpg_small/jpgs/a.jpg"
+        },
+        "color":{
+            "red":"#ff0000ff",
+            "green":"#00ff00"
+        }
+    },
+    "window":{
+        "price":{
+            "background":{
+                "color":"@global/red"
+            }
+        },
+        "title":{
+            "common":{
+                "color":{
+                    "blue":"#0000ffaa"
+                }
+            },
+            "background":{
+                "color":"@common/blue",
+                "font":"@global/h1"
+            }
+        },
+        "ratio":{
+            "background":{
+                "color":"@global/green"
+            }
+        },
+        "panel":{
+            "background":{
+                "image":"@global/img"
+            }
+        },
+        "calendar":{
+            "background":{
+                "color":"#ff00ff"
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "type":"template",
+    "template": "AAA|BCC|BDE",
+    "items":{
+        "A":{
+            "widget":"red",
+            "width":"*"
+        },
+        "B":{
+            "widget":"black",
+            "width":"200"
+        },
+        "C":{
+            "widget":"blue"
+        },
+        "D":{
+            "widget":"green",
+            "width":"#",
+            "height":"200"
+        },
+        "E":{
+            "widget":"yellow",
+            "width":"100",
+            "height":"#"
+        }
+    }
+}

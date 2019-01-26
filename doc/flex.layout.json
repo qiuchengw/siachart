@@ -1,0 +1,70 @@
+{
+    "widget": "UIWindow",
+    "settings": "UI_WINDOW_SETTINGS_NONE",
+    "flexLayout" : {
+      "flexDirection": "column",
+      "justifyContent": "center",
+      "alignItems": "flexStart"
+    },
+    "paddingAll": 20,
+    "children" : [
+      {
+        "widget": "UITextField",
+        "id": "name",
+        "text": "Username or Email",
+        "font": "Pixel",
+        "fontSize": 24
+      },
+      {
+        "widget": "UIEditField",
+        "id": "password",
+        "text": "",
+        "font": "Pixel",
+        "fontSize": 24,
+        "alignSelf": "stretch"
+      },
+      {
+        "widget": "UITextField",
+        "id": "name",
+        "text": "Password",
+        "font": "Pixel",
+        "fontSize": 24,
+        "marginTop": 10
+      },
+      {
+        "widget": "UIEditField",
+        "id": "password",
+        "text": "",
+        "font": "Pixel",
+        "fontSize": 24,
+        "alignSelf": "stretch"
+      },
+      {
+        "widget": "UIContainer",
+        "flexLayout" : {
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "alignItems": "center"
+        },
+        "alignSelf": "stretch",
+        "children" : [
+          {
+            "widget": "UIButton",
+            "id": "cancel",
+            "text": "Cancel",
+            "font": "Pixel",
+            "fontSize": 24,
+            "marginAll": 10
+          },
+          {
+            "widget": "UIButton",
+            "id": "login",
+            "text": "Login",
+            "font": "Pixel",
+            "fontSize": 24,
+            "marginAll": 10
+          }
+        ]
+      }
+    ]
+  }
