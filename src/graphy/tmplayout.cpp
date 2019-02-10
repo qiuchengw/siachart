@@ -6,10 +6,9 @@
 namespace sia {
 namespace graphy {
 
-    TemplateLayout::~TemplateLayout()
-    {
+TemplateLayout::~TemplateLayout() {
 
-    }
+}
 
 bool TemplateLayout::parse(const SkString& layout) {
 //     rapidjson::RJsonDoc d;

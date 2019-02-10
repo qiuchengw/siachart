@@ -88,7 +88,7 @@ void LineObject::buildPaint() {
 
 //////////////////////////////////////////////////////////////////////////
 RichTextObject::RichTextObject()
-    :IVisualObject(ObjectType::kRichText){
+    :IVisualObject(ObjectType::kRichText) {
 
 }
 

@@ -11,7 +11,7 @@ Context* Context::create() { return new ContextImpl(); } \
 bool Context::release(Context* ctx) { delete ctx; return true; }
 
 #define IMPLEMENT_FRAME_PRIVATE \
-Frame::Frame() { impl_.reset(new FramePrivate()); } 
+Frame::Frame() { impl_.reset(new FramePrivate()); }
 
 enum class ContextPrivateEvent {
     kSurfChanged,

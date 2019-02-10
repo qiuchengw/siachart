@@ -137,7 +137,7 @@ void CrossHair::drawTag(SkCanvas* canvas, const SkRect& rc, const SkString& str)
     canvas->drawRect(rc2, *tag_border_);
 
     SkTextUtils::DrawString(canvas, str, rc2.left() + rc2.width() / 2,
-                       rc2.top() + textVerticalMiddle(*tag_text_, rc2.height()), *tag_text_, SkTextUtils::kCenter_Align);
+                            rc2.top() + textVerticalMiddle(*tag_text_, rc2.height()), *tag_text_, SkTextUtils::kCenter_Align);
 }
 
 void CrossHair::drawLineDetail(SkCanvas* canvas, int idx) {

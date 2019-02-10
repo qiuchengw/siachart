@@ -10,8 +10,7 @@ void Layout::setDecoratedWidget(Widget* w) {
     doLayout();
 }
 
-Layout::~Layout()
-{
+Layout::~Layout() {
 
 }
 

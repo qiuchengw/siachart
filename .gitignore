@@ -37,3 +37,5 @@
 *.pdb
 *.exp
 /src/demo/build-myform-*
+*.orig
+*.8-pre1
