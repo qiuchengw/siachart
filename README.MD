@@ -14,13 +14,7 @@
 
 ## 文档
 
-**SiaChart文档**
-> * [SiaChart 中文文档](https://qiuchengw.github.io/zh-cn/)
-
-**其他相关文档**
-> * [Skia 文档](https://skia.org/)
-> * [墙内使用skia](https://piaode.ren/2018/08/01/%E6%89%93%E9%80%A0%E8%87%AA%E5%B7%B1%E7%9A%84GUI%EF%BC%9ASkia%E7%BC%96%E8%AF%91/)
-
+* [SiaChart 中文文档](https://qiuchengw.github.io/zh-cn/)
 
 ## 运行截图
 
