@@ -8,6 +8,54 @@
 
 ![](header.png)
 
+## 开发进度
+### 平台
+**桌面**
+ - [x] Windows
+ - [x] Linux
+ - [ ] Mac
+  
+**移动端**
+ - [ ] Android
+ - [ ] iOS
+  
+### 功能
+
+**图表基础**
+	- [x] 数据源自动排序
+	- [x] 显示精度调整接口
+	- [x] 十字线
+	- [x] 启用/禁用内建功能接口
+	- [x] Tooltip/Tag
+	- [x] 指标公式系统
+	- [x] 面板网格线
+	- [x] 定制外观显示接口
+
+**序列支持情况**
+	- [x] Candle
+	- [x] Line
+	- [x] Bar
+	- [x] Updown
+	- [ ] 更多序列类型支持
+	- [x] 序列的外观设置
+	- [x] 序列统一开发接口
+
+**指标（公式）**
+	- [x] 集成Ta-lib
+	- [ ] 指标公式统一开发接口
+
+**自定义对象（Object）**
+	- [x] 对象的定位
+	- [x] 文本
+	- [x] 图片
+	- [ ] 富文本排版
+	
+**脚本引擎（Lua）**
+	- [x] 内嵌Lua引擎
+	- [x] 外部配置文件解析
+	- [ ] 使用Lua开发公式/指标
+
+
 ## 文档
 * [SiaChart 中文文档](https://qiuchengw.github.io/zh-cn/)
 * [Skia 文档](https://skia.org/)
@@ -16,55 +64,25 @@
 
 ## 运行截图
 
- ![main](https://raw.githubusercontent.com/qiuchengw/siachart/master/imgs/c-main.jpg)
+ ![main](https://raw.githubusercontent.com/qiuchengw/siachart/master/imgs/c-main.png)
 
- ![formula](https://raw.githubusercontent.com/qiuchengw/siachart/master/imgs/c-formula.jpg)
+ ![formula](https://raw.githubusercontent.com/qiuchengw/siachart/master/imgs/c-formula.png)
 
-  ![style](https://raw.githubusercontent.com/qiuchengw/siachart/master/imgs/c-style.jpg)
+  ![style](https://raw.githubusercontent.com/qiuchengw/siachart/master/imgs/c-style.png)
 
-## 编译
+## 编译 & 运行
 
-### 签出必要的源代码
+请参考wiki：[编译](https://github.com/qiuchengw/siachart/wiki/%E7%BC%96%E8%AF%91)
 
-1. Skia签出到“skiall”文件夹内
-   ```sh
-   git clone --depth=1 https://github.com/google/skia.git skiall
-   ```
-
-   墙内码农请使用我提供的gitee镜像：
-   ```sh
-   git clone --depth=1 -v https://gitee.com/qiuchengw/skiall
-   ```
-
-   编译skia有一些坑，请参考我的踩坑文章：[打造自己的GUI：Skia编译](https://piaode.ren/2018/08/01/%E6%89%93%E9%80%A0%E8%87%AA%E5%B7%B1%E7%9A%84GUI%EF%BC%9ASkia%E7%BC%96%E8%AF%91/)
-
-2. 签出SiaChart（本项目）到和skia同目录下
-   ```sh
-   git clone --depth=1 -v https://gitee.com/qiuchengw/siachart
-   ```
-
-### 分平台编译SiaChart：
-
-#### Windows:
-
-```bat
-> cd siachart 
-> mkdir build & cd build
-> cmake -A x64 ..
-```
-使用visual stuido编译sia.sln解决方案。
-
-#### Linux:
-
-```sh
-
-```
-
-Mac/android/ios 暂不支持。
 
 ## Demo
-### DemoChart
-### Qt Demo
+### DemoChart（基本功能展示）
+
+请参考wiki：[基础Demo](https://github.com/qiuchengw/siachart/wiki/Simple-Demo)
+
+### Qt Demo（全功能展示）
+
+请参考wiki：[Qt Demo build & run](https://github.com/qiuchengw/siachart/wiki/Qt-Demo---build-&-run)
 
 ## 版本历史
 
