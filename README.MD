@@ -12,9 +12,9 @@
 
 当前为开发版本，具体已支持完成的功能请参考：[开发进度](https://github.com/qiuchengw/siachart/wiki/%E5%BC%80%E5%8F%91%E8%BF%9B%E5%BA%A6)
 
-## 文档
+## 使用文档
 
-* [SiaChart 中文文档](https://qiuchengw.github.io/zh-cn/)
+[SiaChart 中文文档](https://qiuchengw.github.io/zh-cn/)
 
 ## 运行截图
 
@@ -31,15 +31,11 @@
 
 请参考wiki：[编译](https://github.com/qiuchengw/siachart/wiki/%E7%BC%96%E8%AF%91)
 
-
 ## Demo
-### DemoChart（基本功能展示）
 
-请参考wiki：[基础Demo](https://github.com/qiuchengw/siachart/wiki/Simple-Demo)
+基本功能展示：[基础Demo](https://github.com/qiuchengw/siachart/wiki/Simple-Demo)
 
-### Qt Demo（全功能展示）
-
-请参考wiki：[Qt Demo build & run](https://github.com/qiuchengw/siachart/wiki/Qt-Demo---build-&-run)
+全功能展示：[Qt Demo build & run](https://github.com/qiuchengw/siachart/wiki/Qt-Demo---build-&-run)
 
 ## 版本历史
 
