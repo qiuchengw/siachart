@@ -16,6 +16,12 @@
 
 ## 运行截图
 
+ ![main](https://raw.githubusercontent.com/qiuchengw/siachart/master/imgs/c-main.jpg)
+
+ ![formula](https://raw.githubusercontent.com/qiuchengw/siachart/master/imgs/c-formula.jpg)
+
+  ![style](https://raw.githubusercontent.com/qiuchengw/siachart/master/imgs/c-style.jpg)
+
 ## 编译
 
 ### 签出必要的源代码
@@ -78,14 +84,18 @@ Distributed under the GPL license. See ``LICENSE`` for more information.
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
 
-## 关于 & 赞助
+## 关于
 
 > 作者：[qiuchengw - 漂的人](https://piaode.ren) 
 > 
-> 微信：qiuchengw
+> 微信：qiuchengw （欢迎技术交流） 
+> 
+> ![me-wexin](https://raw.githubusercontent.com/qiuchengw/siachart/master/imgs/wx-me.jpg)
 > 
 > 邮箱：qiuchengw@qq.com
 
-赞助：
+## 赞助：
 
+Buy me a bottle of water!
 
+ ![buy me a bottle of water](https://raw.githubusercontent.com/qiuchengw/siachart/master/imgs/wxpay.jpg)
