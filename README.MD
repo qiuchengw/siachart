@@ -6,8 +6,6 @@
 - 指标/公式系统（已集成Ta-lib）
 - 外观显示完全可定制（可通过Lua引擎自定制文本解析器做任意定制）
 
-![](header.png)
-
 ## 开发进度
 
 当前为开发版本，具体已支持完成的功能请参考：[开发进度](https://github.com/qiuchengw/siachart/wiki/%E5%BC%80%E5%8F%91%E8%BF%9B%E5%BA%A6)
