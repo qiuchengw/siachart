@@ -8,7 +8,7 @@
 
 ## 开发进度
 
-当前为开发版本，具体已支持完成的功能请参考：[开发进度](https://github.com/qiuchengw/siachart/wiki/%E5%BC%80%E5%8F%91%E8%BF%9B%E5%BA%A6)
+当前为开发版本，并非稳定发布版，请知悉。具体已支持完成的功能请参考：[开发进度](https://github.com/qiuchengw/siachart/wiki/%E5%BC%80%E5%8F%91%E8%BF%9B%E5%BA%A6)
 
 ## 使用文档
 
