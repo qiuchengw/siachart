@@ -62,9 +62,3 @@ Distributed under the GPL license. See ``LICENSE`` for more information.
 > ![me-wexin](https://raw.githubusercontent.com/qiuchengw/siachart/master/imgs/wx-me.jpg)
 > 
 > 邮箱：qiuchengw@qq.com
-
-## 赞助：
-
-Buy me a bottle of water!
-
- ![buy me a bottle of water](https://raw.githubusercontent.com/qiuchengw/siachart/master/imgs/wxpay.jpg)
